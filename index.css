@@ -1,0 +1,40 @@
+body {
+    Background-Color: #649549;
+    box-sizing: border-box;
+}
+header {
+    background-color: #00ffff;
+    text-align: center;
+}
+nav {
+    position: relative;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    list-style: none;
+}
+.bar> .left{
+    margin-top: -4%;
+    float: left;
+}
+.bar> .right{
+    margin-top: -4%;
+    float: right;;
+}
+.right ul {
+    display: inline-flex;
+}
+.left ul {
+    display: inline-flex;
+}
+.left ul li{
+    width: 120px;
+    color: #6CB840;
+}
+.right ul li{
+    width: 120px;
+    color: #6CB840;
+}
