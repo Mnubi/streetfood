@@ -1,9 +1,22 @@
 body {
-    Background-Color: #649549;
+    font-family: Poppins;
+    Background-Color: #afafae;
     box-sizing: border-box;
 }
+.backcolor{
+    padding-left: 50%;
+    float: left;
+}
+.logo {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.desc {
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 0;
+}
 header {
-    background-color: #00ffff;
     text-align: center;
 }
 nav {
@@ -37,4 +50,19 @@ ul {
 .right ul li{
     width: 120px;
     color: #6CB840;
+}
+.one {
+    position:relative;
+    float: right;
+    background-color: #6CB840;
+    font-size: large;
+    text-align: center;
+    font: 20px;
+    font-weight: 700;
+    
+}
+.one{
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
 }
