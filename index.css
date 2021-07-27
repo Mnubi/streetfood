@@ -78,6 +78,7 @@ ul {
     shape-outside: ellipse(40% 50%);
     clip-path: ellipse(40% 50%);
     transform: rotate(60deg);
+    z-index: -1;
 }
 .motto {
     width: 400px;
@@ -92,6 +93,9 @@ ul {
     color: #6CB840;
     font-size: 30px;
     font-weight: 700;
+}
+.main> h2{
+    text-align: left;
 }
 .button {
     background-color:#6CB840;
@@ -137,4 +141,42 @@ ul {
     text-align: center;
     margin-left: 80px;
     padding-left: 40px;
+}
+.hot {
+    background-color: rgb(190, 232, 233);
+    height: 400px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: -1;
+
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+.burger> img{
+    position: absolute;
+    margin: 20px;
+    margin-top: 15px;
+    z-index: +1;
+    
+}
+.burger >div {
+    position: relative;
+    background-color: white;
+    border-bottom-right-radius: 30%;
+    font-size: 15px;
+    height: 120px;
+    width: 300px;
+    margin-left: 100px;
+    padding: 0;
+}
+.white> h3{
+    text-align: left;
+    font-weight: 900;
+    margin-bottom: -25px;
+}
+.white{
+    text-align: center;
 }
