@@ -181,3 +181,8 @@ ul {
 .white{
     text-align: center;
 }
+.deal{
+    height: 400px;
+    width: 100%;
+    background-color: #6CB840;
+}
