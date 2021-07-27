@@ -13,6 +13,7 @@ body {
     float: left;
 }
 .logo {
+    position: ;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -83,19 +84,12 @@ ul {
     position: relative;
     float: left;
     text-align: block;
-    float: left;
 }
 .main{
-    float: left;git ;
+    padding: 0;
+    float: left;
     text-align: center;
     color: #6CB840;
-    font-size: 30px;
-    font-weight: 700;
-}
-.main2{
-    float: right;
-    text-align: center;
-    color: #EAAB1B;
     font-size: 30px;
     font-weight: 700;
 }
@@ -114,6 +108,18 @@ ul {
     margin: 8px 2px;
 }
 .dish {
+    position: initial;
     width: 120px;
     height: 120px;
+}
+.about {
+    position: relative;
+    float: left;
+    width: 40%%;
+    margin: 10px;
+    padding-top: 200px;
+}
+.text{
+    margin: 10px;
+    float: left:
 }
