@@ -113,13 +113,28 @@ ul {
     height: 120px;
 }
 .about {
-    position: relative;
-    float: left;
-    width: 40%%;
+    background-color: #FFFFFF;
+    background-position: 10px;
+    height:400px;
+    width: 1200px;
     margin: 10px;
-    padding-top: 200px;
+    padding: 30px;
+
+    display: flex;
 }
 .text{
-    margin: 10px;
-    float: left:
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 40%;
+    text-align: center;
+}
+.text> h2 {
+    margin-top: 80px;
+    text-align: center;
+    color: #EAAB1B;
+}
+.text> p{
+    text-align: center;
+    margin-left: 80px;
+    padding-left: 40px;
 }
