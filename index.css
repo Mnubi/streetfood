@@ -150,15 +150,15 @@ ul {
     padding: 0px;
     z-index: -1;
 
-    /* display: flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center; */
+    justify-content: center;
 }
 .burger> img{
     position: absolute;
     margin: 20px;
-    margin-top: 15px;
+    margin-top: 30px;
     z-index: +1;
     
 }
@@ -175,6 +175,7 @@ ul {
 .white> h3{
     text-align: left;
     font-weight: 900;
+    margin-left: 10px;
     margin-bottom: -25px;
 }
 .white{
