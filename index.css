@@ -226,4 +226,11 @@ ul {
     font-size: 30px;
     text-align: left;
 }
+.contact{
+    position: relative;
+    margin-top: 500px;
+    height: 600px;
+    width: 100%;
+    background-color: aqua;
+}
     
