@@ -182,7 +182,48 @@ ul {
     text-align: center;
 }
 .deal{
-    height: 400px;
+    height: 600px;
     width: 100%;
-    background-color: #6CB840;
+    background-color: #bbf19c;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.combo{
+    position: absolute;
+}
+.juice> img{
+    height: 600px;
+    width: 400px;
+    margin-top: -60px;
+    position: relative;
+    float: left;
+}
+.bagga{
+    margin-top: 210px;
+    position: absolute;
+    z-index: +1;
+    margin-left: 80px;
+}
+.bagga> img{
+    height: 350px;
+    width: 450px;
+}
+.cake{
+    margin-top: 150px;
+    width: 40%;
+    text-align: center;
+    margin-left: 500px;
+}
+.cake> h2{
+    color: #6CB840;
+    font-size: 40px;
+}
+.cake> h3{
+    font-size: 30px;
+    text-align: left;
+}
+    
