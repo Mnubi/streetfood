@@ -92,7 +92,6 @@ ul {
     margin-left: 40px;
     margin-top: 50px;
 }
-}
 .main{
     padding: 0;
     float: left;
@@ -264,6 +263,7 @@ footer{
     width: 100%;
     margin-top: 40px;
     padding-top: 20px;
+    
 }
 .starter {
     float: left;
@@ -277,6 +277,5 @@ footer{
 }
 .sign{
     padding: 50px;
-    
     float: right;
 }
