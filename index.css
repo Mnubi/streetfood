@@ -4,9 +4,13 @@ body {
     Background-Color: #dbdbca;
     box-sizing: border-box;
 }
+.desc {
+    font-weight: 800;
+}
 .bar a{
     position: relative;
-    color: rgb(2, 1, 1);
+    color: black;
+    font-weight: 800;
 }
 .backcolor{
     padding-left: 50%;
@@ -85,6 +89,9 @@ ul {
     position: relative;
     float: left;
     text-align: block;
+    margin-left: 40px;
+    margin-top: 50px;
+}
 }
 .main{
     padding: 0;
@@ -93,9 +100,6 @@ ul {
     color: #6CB840;
     font-size: 30px;
     font-weight: 700;
-}
-.main> h2{
-    text-align: left;
 }
 .button {
     background-color:#6CB840;
@@ -133,14 +137,16 @@ ul {
     text-align: center;
 }
 .text> h2 {
+    font-size: 40px;
     margin-top: 80px;
     text-align: center;
     color: #EAAB1B;
 }
 .text> p{
     text-align: center;
-    margin-left: 80px;
+    margin-left: 30px;
     padding-left: 40px;
+    width: 65%;
 }
 .hot {
     background-color: rgb(190, 232, 233);
@@ -181,10 +187,14 @@ ul {
 .white{
     text-align: center;
 }
+.white> p{
+    font-size: 12px;
+    margin-top: 25px;
+}
 .deal{
-    height: 600px;
+    height: 900px;
     width: 100%;
-    background-color: #bbf19c;
+    background-color: #C9ECB5;
     text-align: center;
 
     display: flex;
@@ -214,23 +224,59 @@ ul {
 }
 .cake{
     margin-top: 150px;
-    width: 40%;
+    width: 50%;
     text-align: center;
     margin-left: 500px;
 }
 .cake> h2{
+    margin-left: 10px;
     color: #6CB840;
-    font-size: 40px;
+    font-size: 35px;
 }
 .cake> h3{
+    margin-left: 45px;
     font-size: 30px;
     text-align: left;
 }
 .contact{
     position: relative;
     margin-top: 500px;
-    height: 600px;
+    height: 900px;
     width: 100%;
-    background-color: rgb(222, 243, 243);
+    background-color: #FFD77C;
 }
+.contact> button{
+    background-color:#6CB840;
+    border: none;
+    border-radius: 45%;
+    color: rgb(253, 250, 250);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 800;
+}
+footer{
+    background-color: #C9ECB5;
+    text-align: left;
+    height: 300px;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.starter {
+    float: left;
+    padding: 40px;
+}
+
+.address {
+    margin-top: 60px;
+    padding: 60px;
+    float: left;;
+}
+.sign{
+    padding: 50px;
     
+    float: right;
+}
