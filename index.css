@@ -66,22 +66,22 @@ ul {
 }
 .one {
     position:absolute;
-    top: -300px;
-    right: 0;
+    top: -500px;
+    right: -100px;
     background-color: #6CB840;
-    opacity: 50%;
-    font-size: large;
+    background-image: url(../streetfood/Images/food.png);
+    background-position: center;
+    background-position-y: 750px;
+    background-position-x: -700px;
     text-align: center;
     font: 20px;
-    font-weight: 700;
-    
-}
-.one{
-    height: 900px;
-    width: 900px;
-    shape-outside: ellipse(40% 50%);
-    clip-path: ellipse(40% 50%);
-    transform: rotate(60deg);
+    font-weight: 700;  
+
+
+    height: 1200px;
+    width: 1200px;
+    shape-outside: ellipse(51% 50%);
+    clip-path: ellipse(43% 50%);
     z-index: -1;
 }
 .motto {
@@ -91,6 +91,7 @@ ul {
     text-align: block;
     margin-left: 40px;
     margin-top: 50px;
+    padding-bottom: 300px;
 }
 .main{
     padding: 0;
@@ -121,8 +122,7 @@ ul {
 }
 .about {
     background-color: #FFFFFF;
-    background-position: 10px;
-    height:400px;
+    height:500px;
     width: 1200px;
     margin: 10px;
     padding: 30px;
